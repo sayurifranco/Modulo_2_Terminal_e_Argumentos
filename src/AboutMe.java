@@ -9,5 +9,17 @@ public class AboutMe {
         System.out.println("Ola, me chamo " + nome + " " + sobrenome);
         System.out.println("Tenho " + idade + " anos ");
         System.out.println("Minha altura é " + altura + "cm ");
+    
+        {   
+            "version": "0.2.0",
+            "configurations": [
+            {
+                "type": "java",
+                "request": "launch",
+                "mainClass": "AboutMe",
+                "args": ["GLEYSON", "SAMPAIO", "28", "1.58"]  
+            } 
+            ]
+        }  
     }
 }
